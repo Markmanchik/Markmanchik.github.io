@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "Mayestica";
+	src: url("../fonts/Mayestica.ttf");
+}
+
+@font-face {
+	font-family: "Roboto-Regular";
+	src: url("../fonts/Roboto-Regular.ttf");
+}
+
+p {
+
+	font-family: "Mayestica";
+	font-size: 25px;
+     text-align: center;
+}
+
+h1 {
+
+	font-family: "Mayestica";
+	width: 100%;
+	text-align: center;
+	font-size: 150px;
+     color: chartreuse;
+
+}
+
+body{
+     background-color: rgba(20,112,163,0.6);
+
+}
+
+main{
+width: 90%;
+padding: 40px;
+margin: auto;
+background-color: rgb(39, 182, 127);
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+box-shadow: 10 10 10px 10px rgba(0,0,0,0.2);
+border-radius: 10px;
+}
+
+div{
+    width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	background-color: black;
+	margin: 10px;
+     border-radius: 10px;
+	 background-position: center;
+	 background-size: cover;
+	 transition: all 0.5s;
+	 }
+
+div:hover {
+	transform: rotate(3deg) scale(0.9);
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0.4);
+}
+
+ .photo1 {
+    background-image: url(../img/1675842942_3-315.jpg);
+
+}
+
+.photo2 {
+ background-image: url(../img/1675446671_gas-kvas-com-p-kartinki-na-fonovii-risunok-rabochego-43.jpg);
+}
+
+.photo3 {
+ background-image: url(../img/1666206241_12-mykaleidoscope-ru-p-kartinka-na-zastavku-oboi-12.jpg);
+}
+
+.photo4 {
+	background-image: url(../img/1ff02e3ba9cecf53fa276611f21c6881.jpeg);
+}
+
+.photo5 {
+	background-image: url(../img/5417b6fec641966a8d5ba5e595fd64be.jpeg);
+}
+
+.photo6 {
+	background-image: url(../img/a8d4727b9b3b574fdc2e73e62b7be324.jpeg);
+}
+
+.photo7 {
+	background-image: url(../img/a609f352bbc5264204247b1125224c47.jpeg);
+}
+
+.photo8 {
+	background-image: url(../img/54f594a083eccc7831a97cb4ff36d52c.jpeg);
+}
+
+.photo9 {
+	background-image: url(../img/cb121e543e480b5f042cfcfd4058bf7a.jpeg);
+}
+
+.photo10 {
+	background-image: url(../img/krasivye-kartinki-okeana.jpg);
+}
+
+.photo11 {
+	background-image: url(../img/krasivye-kartinki-okeana.jpg);
+}
+
+.photo12 {
+	background-image: url(../img/a8d4727b9b3b574fdc2e73e62b7be324.jpeg);
+}
